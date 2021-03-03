@@ -5,42 +5,80 @@
     <meta charset="UTF-8">
     <title>Way-up</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="https://wayup.in/courses/course10/lesson2/logo.jpg" alt="logo">
-        <h1>Вступление H1</h1>
-        <p class="firstText">Это текст моего первого домашнего задания.</p>
-        <p>Не верится, но мне уже удается писать свой <span>первый код на HTML.</span></p>
+        <div class="container">
+            <img class="logo" src="./img/logo (1).png" alt="wayup">
+            <div class="wrapper">
+                <div class="offer">
+                    <h1>
+                        С помощью верстки
+                        я создам ту жизнь, о которой<br>
+                        <span>мечтаю!</span>  
+                    </h1>
+                    <p class="offer-text">
+                        Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
+                    </p>
+                    <button class="btn btn-title">Двигаться к мечте!</button>
+                </div>
+                <img src="./img/title.png" alt="picture">
+
+            </div>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Что дальше? H2</h2>
-            <p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин!<a
-                    href="http://www.google.com" target="_blank">Прочитать больше в Google</a></p>
+        <section class='learn'>
+            <div class="container">
+                <h2>Что меня ждет впереди</h2>
+                <div class="wrapper">
+                    <div class="skill">
+                        <img src="./img/clock.png" alt="free time">
+                        <h3>Свободное время</h3>
+                        <p>
+                            Мне нужно свободное время на семью и самое настоящее
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <img src="./img/travel.png" alt="travel">
+                        <h3>Яркие путешествия</h3>
+                        <p>
+                            Работать откуда угодно - что может быть лучше?
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <img src="./img/third.png" alt="third">
+                        <h3>Создание ценности</h3>
+                        <p>
+                            Нет ничего сильнее, чем жить не просто так, создавая ценность
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </section>
-        <section>
-            <h2 class="second">Что я буду уметь? H2</h2>
-            <p class="thirdText">Я смогу создавать эти замечательные формы:</p>
-            <form action="#">
-                <input type="text" name="name" placeholder="Имя" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="tel" name="phone" placeholder="Телефон" required>
-                <button type='submit'>Отправить форму</button>
-            </form>
-            <p>А также, я научусь создавать списки:</p>
-            <ul>
-                <li>С одним пунктом</li>
-                <li>С несколькими пунктамм</li>
-                <li>И даже с тремяотдлеьными пунктами</li>
-            </ul>
+        <section class='mailForm'>
+            <div class="container">
+                <h2>Форма заказа билета в будущее</h2>
+                <form action="#" class="form">
+                    <input type="text" name="name" placeholder="Имя" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="tel" name="phone" placeholder="Телефон" required>
+                    <input type="еуче" name="where-i'll-go" placeholder="Куда я полечу в ближайшее время?" required>
+                    <button class="btn btn-form">Двигаться к мечте!</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-        <h2>Отличное начало! H2</h2>
-        <a href="https://wayup.in/cabinet/course10/unit1/lesson1" target="_blank">Перейти на страницу первого занятия
-            курса</a>
+        <div class="container">
+            <p>© Все мои мечты защищены моим трудолюбием</p>
+        </div>
     </footer>
 </body>
 
