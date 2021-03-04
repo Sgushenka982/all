@@ -58,7 +58,7 @@ h1{
 }
 
 .offer{
-    width: 560px;
+    max-width: 560px;
     color: #fff;
 }
 
@@ -133,4 +133,75 @@ footer{
 footer p{
     padding: 0;
     margin: 0;
+}
+
+/*Responsive*/
+
+/*1201px - 1400px*/
+@media screen and (max-width: 1400px){
+    .container{
+        max-width: 1140px;
+    }
+    .offer{
+       width: 400px;
+    }
+}
+
+/*993px - 1200px*/
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .titleImg{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+/*769px - 992px*/
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+/*577px - 768px*/
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .offer{
+        width: 100%;
+    }
+    .offer-text{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 230px;
+    }
+    .titleImg{
+        width: 100%;
+    }
+    .form>input{
+        width: 100%;
+    }
+}
+
+/*0 - 576px*/
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 90%;
+    }
+    .logo{
+        margin-left: 40%;
+    }
+    .skill{
+        width: 100%;
+    }
 }
